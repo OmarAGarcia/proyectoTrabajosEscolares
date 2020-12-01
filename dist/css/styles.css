@@ -42,13 +42,34 @@ body {
 
 .slick-slide {
     transition: all ease-in-out .3s;
-    opacity: .2;
+    opacity: 1;
 }
 
 .slick-active {
-    opacity: .5;
+    opacity: 1;
 }
 
 .slick-current {
     opacity: 1;
+}
+
+.contenedor {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
+}
+
+@media (max-width: 1024px) {
+    .contenedor {
+        max-width: 734px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        max-width: 478px;
+    }
 }
