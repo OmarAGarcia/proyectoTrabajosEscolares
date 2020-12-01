@@ -67,9 +67,13 @@ a:focus {
     transform-origin: bottom left;
 }
 
-#sidebar.active {
+#sidebar.active .contenido {
     margin-left: -250px;
     transform: rotateY(100deg);
+    width: 76%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.5s;
 }
 
 #sidebar .sidebar-header {
